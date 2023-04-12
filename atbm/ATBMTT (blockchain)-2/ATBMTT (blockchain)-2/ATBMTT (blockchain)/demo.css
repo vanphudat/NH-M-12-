@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.mat img {
+  position: absolute;
+}
+
+#market-coin {
+  margin-top: 14%;
+  text-align: center;
+  font-size: 150%;
+}
+
+#pass {
+  margin-bottom: 10%;
+}
+
+#message {
+  padding-bottom: 5%;
+}
+
+.form-group {
+  margin-bottom: 5%;
+}
+
+.no {
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+}
+
+.ten {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 100%;
+  font-size: 310%;
+  color: rgb(67, 130, 232);
+}
+
+.underline {
+  border-bottom: 1px solid black;
+
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  padding-left: 2%;
+}
+
+#footer1 {
+  margin-left: 0%;
+}
+
+#footer2 {
+  margin-right: 4%;
+  margin-left: 50%;
+}
+
+#member {
+  list-style-type: none;
+  margin-top: 3%;
+  display: flex;
+
+}
+
+.map img{
+  padding-right: 10%;
+}
+
+.giang1 {
+  padding-right: 10%;
+}
+
+.hang1 {
+  padding-right: 10%;
+}
+
+.cuc1 {
+  padding-right: 10%;
+}
+
+.anh {
+  /* height: 80%;
+  border-radius: 50%; */
+  margin-top: 15%;
+  width: 200px;
+  height: 80%;
+  border-radius: 50%;
+}
+/* .nav {
+  position: fixed;
+} */
+.container {
+  display: flex;
+}
+#color1 img {
+  animation: myAnimation 2s infinite;
+  margin-left: 0%;
+  margin-top: 0%;
+  height: 80%;
+}
+
+@keyframes myAnimation {
+  10% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.box img {
+  animation: myAnimation 2s infinite;
+  margin-left: 17%;
+  margin-top: 10%;
+  height: 80%;
+}
+
+@keyframes myAnimation {
+  10% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.frame h1 {
+  width: 100%;
+}
+
+.frame {
+  /* margin-left: 10%; */
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 0%;
+  border: 4px solid black;
+  /* định nghĩa đường viền */
+  height: 135%;
+  width: 400px;
+  /* margin-top: -40%; */
+  margin-top:10%;
+  height: 90%;
+  background-color: rgb(148, 156, 169);
+}
+
+#color1 {
+  background-color: rgb(173, 192, 223);
+  height: 100%;
+  display: flex
+}
+
+#dongxu2 {
+  height: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 5%
+}
+
+#text2 {
+  padding-left: 0%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#khung{
+  margin-top:5%;
+  height: 100%;
+  background-color: rgb(236, 231, 204);
+}
+
+#khung2{
+  margin-top:0%;
+  height: 100%;
+  width:100%;
+  background-color: rgb(236, 231, 204);
+  border: none;
+}
+.slogan {
+  font-weight: bold;
+}
+#end{
+  background-color: rgb(173, 192, 223);
+  width: 80%;
+  height: 100%;
+  padding-left: 0%;
+  padding-top: 5%;
+} 
+.end1 {
+  display: flex;
+}
+.anh1{
+  display: flex;
+  margin-left: 5%;
+}
+.anh1 img{
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+.anh1 p{
+  margin-left: 3%;
+  margin-top: 5%;
+  font-size: 50px;
+  color: rgb(67, 130, 232);
+  display: flex;
+}
+
+.member2{
+ padding-left: 0%
+}
+.thank-you {
+  margin-top: -13%;
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.thank-you h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.thank-you p {
+  font-size: 2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.thank-you button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  background-color: #c00;
+  color: #fff;
+  border: none;
+  box-shadow: 1px 1px 2px #999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button {
+  border-radius: 5px;
+  background-color: rgb(67, 130, 232);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#image img {
+  max-width: 90%;
+  margin-left: 1%;
+  transform: scale(1);
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#image-container1 img {
+  max-width:25%;
+  margin-left: 35%;
+  transform: scale(1);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#finally{
+  margin-left:3%;
+  margin-right:3%;
+  margin-top:3%;
+}
+.thietke {
+  display: flex;
+}
+.thietke a{
+  margin-left: 0%;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.thietke p{
+  margin-right: 1%;
+}
